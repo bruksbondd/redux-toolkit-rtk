@@ -11,9 +11,9 @@ const PostContainer = () => {
     const [deletePost, {}] = postAPI.useDeletePostMutation()
 
     useEffect(() => {
-        setTimeout(() => {
-            setLimit(3)
-        }, 2000)
+        // setTimeout(() => {
+        //     setLimit(3)
+        // }, 2000)
     }, [])
 
     const handleCreate = async () => {
